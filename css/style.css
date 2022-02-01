@@ -26,23 +26,17 @@ body {
 }
 
 .first-screen {
-	height: calc(100vh - 5rem);
+	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 }
 
 .header {
-	padding: 2rem 0;
+	margin-top: 4rem;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-}
-
-.sticky {
-	position: sticky;
-	background: #f8f8f8;
-	top: 0;
 }
 
 ul {
