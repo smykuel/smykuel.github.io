@@ -13,6 +13,7 @@ body {
 	background-repeat: no-repeat;
 	font-family: "Rubik";	
 	color: #212121;
+	fill: #212121;
 }
 
 .bold {
@@ -98,16 +99,26 @@ ul {
 
 .whatido h1 {
 	font-size: 30px;
-	font-weight: 900;
 }
 
 .whatido1 {
 	margin-top: 3rem;
-	width: 100vh;
+	width: 40px;
 	height: auto;
 	display: flex;
 	flex-direction: row rtl;
 	gap: 25rem;
+	color: #212121;
+}
+
+.whatido2 {
+	margin-top: 3rem;
+	width: 38px;
+	height: auto;
+	display: flex;
+	flex-direction: row rtl;
+	gap: 25rem;
+	color: #212121;
 }
 
 .whatidocontent {
@@ -122,11 +133,23 @@ ul {
 	font-weight: 600;
 }
 
+.whatidocontent2 {
+	margin-top: 1.37rem;
+	display: flex;
+	flex-direction: row;
+	gap: 22.6rem;
+}
+
+.whatidocontent2 p {
+	font-size: 24px;
+	font-weight: 600;
+}
+
 .whatidotext {
 	display: flex;
 	margin-top: 0.8rem;
-	font-size: 15px;
-	font-weight: 400;
+	font-size: 23px;
+	font-weight: 100;
 	gap: 9.3rem;
 }
 
@@ -216,3 +239,9 @@ ul {
 	width: 100%;
 	height: 4rem;
 }
+
+.servicess {
+	margin-left: 28rem;
+	margin-top: -15.40rem;
+}
+
